@@ -14,12 +14,22 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+        // Spinner
+        val spinner = findViewById<Spinner>(R.id.spinner)
+        val spinnerButton = findViewById<Button>(R.id.spinnerButton)
+        val spinnerValues = arrayOf("Ade", "Cahyaning", "Palupi")
+        val spinnerAdapter = ArrayAdapter(this, android.R.layout.simple_spinner_dropdown_item, spinnerValues)
+        spinner.adapter = spinnerAdapter
+        spinnerButton.setOnClickListener {
+            val selectedValue = spinner.selectedItem.toString()
+            Toast.makeText(this, "Nama : $selectedValue", Toast.LENGTH_SHORT).show()
+
         // EditText
         val editText = findViewById<EditText>(R.id.editText)
         val textButton = findViewById<Button>(R.id.textButton)
         textButton.setOnClickListener {
             val inputText = editText.text.toString()
-            Toast.makeText(this, "Input Text: $inputText", Toast.LENGTH_SHORT).show()
+            Toast.makeText(this, "Inputan: $inputText", Toast.LENGTH_SHORT).show()
         }
 
         // CheckBox
@@ -28,7 +38,7 @@ class MainActivity : AppCompatActivity() {
         checkButton.setOnClickListener {
             val isChecked = checkBox.isChecked
             val resultText = if (isChecked) "checked" else "unchecked"
-            Toast.makeText(this, "Checkbox is $resultText", Toast.LENGTH_SHORT).show()
+            Toast.makeText(this, "$resultText box", Toast.LENGTH_SHORT).show()
         }
 
         // RadioButtons
@@ -41,18 +51,9 @@ class MainActivity : AppCompatActivity() {
             val selectedRadioButtonId = radioGroup.checkedRadioButtonId
             val selectedRadioButton = findViewById<RadioButton>(selectedRadioButtonId)
             val selectedText = selectedRadioButton.text.toString()
-            Toast.makeText(this, "Selected radio button: $selectedText", Toast.LENGTH_SHORT).show()
+            Toast.makeText(this, "Band yang dipilih: $selectedText", Toast.LENGTH_SHORT).show()
         }
 
-        // Spinner
-        val spinner = findViewById<Spinner>(R.id.spinner)
-        val spinnerButton = findViewById<Button>(R.id.spinnerButton)
-        val spinnerValues = arrayOf("Value 1", "Value 2", "Value 3")
-        val spinnerAdapter = ArrayAdapter(this, android.R.layout.simple_spinner_dropdown_item, spinnerValues)
-        spinner.adapter = spinnerAdapter
-        spinnerButton.setOnClickListener {
-            val selectedValue = spinner.selectedItem.toString()
-            Toast.makeText(this, "Selected spinner value: $selectedValue", Toast.LENGTH_SHORT).show()
         }
     }
 }
