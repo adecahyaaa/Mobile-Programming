@@ -9,13 +9,13 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="132f72df-e11d-4551-af15-5a5c9ced9fba" name="Changes" comment="" />
+    <list default="true" id="15159029-a9e0-4569-a796-c90436fc70bb" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[C:\Users\adeca\.android\avd\Pixel_6_Pro_API_30.avd]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[C:\Users\adeca\.android\avd\Pixel_2_API_25.avd]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -34,7 +34,7 @@
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
-  <component name="ProjectId" id="2MlB9uPMHUbRrdLSnsgKYwkGQRr" />
+  <component name="ProjectId" id="2M8irw15yq4ilxWLmgLFJXYNa7o" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -45,17 +45,13 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.cidr.known.project.marker": "true",
     "cidr.known.project.marker": "true",
-    "last_opened_file_path": "C:/Users/adeca/AndroidStudioProjects/latihan1"
+    "last_opened_file_path": "C:/Users/adeca/AndroidStudioProjects/HelloWorld",
+    "settings.editor.selected.configurable": "preferences.pathVariables"
   }
 }]]></component>
-  <component name="RecentsManager">
-    <key name="android.template.741477964">
-      <recent name="com.example.latihan_1" />
-    </key>
-  </component>
   <component name="RunManager">
     <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App">
-      <module name="latihan-1.app.main" />
+      <module name="Hello_World.app.main" />
       <option name="DEPLOY" value="true" />
       <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
       <option name="DEPLOY_AS_INSTANT" value="false" />
@@ -116,11 +112,11 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="132f72df-e11d-4551-af15-5a5c9ced9fba" name="Changes" comment="" />
-      <created>1678332140874</created>
+      <changelist id="15159029-a9e0-4569-a796-c90436fc70bb" name="Changes" comment="" />
+      <created>1677155825864</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1678332140874</updated>
+      <updated>1677155825864</updated>
     </task>
     <servers />
   </component>
