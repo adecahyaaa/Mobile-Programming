@@ -39,3 +39,13 @@ project.properties
 
 # Gradle-based build
 build/
+
+# Mengabaikan file dengan ekstensi .txt
+*.txt
+
+# Mengabaikan direktori bernama "node_modules"
+node_modules/
+
+
+# Mengabaikan file bernama "config.ini"
+config.ini
