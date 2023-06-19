@@ -13,3 +13,18 @@
 .externalNativeBuild
 .cxx
 local.properties
+
+# Mengabaikan file dengan ekstensi .txt
+*.txt
+
+# Mengabaikan direktori bernama "node_modules"
+Mobile-Programming-5.2/
+
+# Mengabaikan file bernama "config.ini"
+config.ini
+
+# Mengabaikan semua file dengan ekstensi ".log"
+*.log
+
+# Mengabaikan direktori "temp"
+temp/

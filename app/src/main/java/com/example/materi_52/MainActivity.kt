@@ -40,10 +40,10 @@ class MainActivity : AppCompatActivity() {
         val descriptionTextView = cardView.findViewById<TextView>(R.id.descriptionTextView)
 
         // Mengatur judul kartu
-        titleTextView.text = "Apa Kartu itu?"
+        titleTextView.text = "Band Jamrud"
 
         // Mengatur deskripsi kartu
-        descriptionTextView.text = "Lembaran kecil yang terbuat dari bahan seperti kertas atau plastik yang digunakan untuk berbagai tujuan."
+        descriptionTextView.text = "Jamrud adalah grup musik heavy metal & rock Indonesia yang dibentuk di Kota Cimahi, mulanya bernama Jam Rock"
 
         // Mengatur warna latar belakang kartu secara acak
         cardView.setCardBackgroundColor(getRandomColor())
@@ -55,12 +55,12 @@ class MainActivity : AppCompatActivity() {
     private fun getRandomColor(): Int {
         // Array warna yang tersedia
         val colors = arrayOf(
-            Color.RED,
-            Color.GREEN,
-            Color.BLUE,
-            Color.YELLOW,
-            Color.CYAN,
-            Color.MAGENTA
+            0xFFB2DFDB.toInt(), // Teal
+            0xFFFFCDD2.toInt(), // Pink
+            0xFFFFF9C4.toInt(), // Yellow
+            0xFFE1BEE7.toInt(), // Purple
+            0xFFBBDEFB.toInt(), // Blue
+            0xFFC8E6C9.toInt()  // Green
         )
         // Memilih indeks warna secara acak
         val randomIndex = (0 until colors.size).random()

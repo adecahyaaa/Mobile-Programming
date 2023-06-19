@@ -14,13 +14,18 @@
         android:layout_height="wrap_content"
         android:text="Tambah Kartu" />
 
-    <LinearLayout
-        android:id="@+id/cardContainer"
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:layout_marginTop="16dp">
+        android:layout_height="match_parent">
 
-    </LinearLayout>
+        <LinearLayout
+            android:id="@+id/cardContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="16dp">
+
+        </LinearLayout>
+    </ScrollView>
 
 </LinearLayout>
