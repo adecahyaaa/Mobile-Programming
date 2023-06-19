@@ -1,0 +1,24 @@
+*.iml
+.gradle
+/local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+
+# Mengabaikan file dengan ekstensi .txt
+*.txt
+
+# Mengabaikan direktori bernama "node_modules"
+node_modules/
+
+# Mengabaikan file bernama "config.ini"
+config.ini
